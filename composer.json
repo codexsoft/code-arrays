@@ -1,0 +1,35 @@
+{
+    "name": "codexsoft/code-arrays",
+    "license": "MIT",
+    "description": "Classes helper library",
+    "authors": [
+        {
+            "name": "Dmitriy V Kozubskiy",
+            "email": "kozubsky@inbox.ru",
+            "homepage": "http://codexsoft.ru/",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/codexsoft/code-arrays/issues",
+        "source": "https://github.com/codexsoft/code-arrays"
+    },
+    "require": {
+        "php": "^7.2.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6",
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodexSoft\\Code\\Arrays\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": ["vendor/", "tests/unit/"]
+        }
+    }
+}
