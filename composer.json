@@ -1,7 +1,7 @@
 {
     "name": "codexsoft/code-arrays",
     "license": "MIT",
-    "description": "Classes helper library",
+    "description": "Arrays helper library",
     "authors": [
         {
             "name": "Dmitriy V Kozubskiy",
